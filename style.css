@@ -85,3 +85,75 @@ li {
 li img {
   border-radius: 0;}
   
+@media (max-width: 650px) {
+  header {
+    width: calc(100% - 32px) ;
+    height: auto;
+    min-height: 58px;
+    padding: 10px 16px ;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  header nav,
+  header .icons {
+    width: 100%;
+  }
+
+  header nav ul {
+    height: auto  ;
+    margin: 0;
+    padding: 0;
+    justify-content: center  ;
+    flex-wrap: wrap;
+    gap: 8px 14px  ;
+  }
+
+  header .icons {
+    justify-content: center;
+  }
+
+  .hero {
+    width: calc(100% - 40px);
+    margin: 35px auto;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  #hero-content,
+  #hero-image {
+    width: 100%  ;
+  }
+
+  #hero-content {
+    text-align: center;
+  }
+
+  #hero-image img {
+    width: 100%  ;
+    height: auto  ;
+    display: block;
+  }
+
+  footer > p {
+    margin: 0 20px 18px  ;
+    text-align: center;
+  }
+
+  .company-logos {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+
+  .company-logos ul {
+    width: 100%;
+    height: auto  ;
+    justify-content: center  ;
+    gap: 18px  ;
+  }
+
+  .company-logos img {
+    width: 75px;
+    height: 36px;
+  }
+}
