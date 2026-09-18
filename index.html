@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      a {
+        text-decoration: none;
+        color: #9c9c9c;
+        font-size: 12px;
+        font-family: poppins;
+      }
+      .hero{
+        display: flex;
+        margin: 30px auto;
+        width: 80%;
+        justify-content: space-between;
+      }
+      #hero-content{
+        width: 40%;
+      }
+      p{
+        font-size: 12px;
+      }
+      #image1{
+        border-radius: 50%;
+      }
+      h2{
+        color: #ffffff;
+      }
+
+      button{
+        color: #ffffff;
+        background-color: rgb(50, 212, 50);
+        border: none;
+        font-size: 12px;
+        font-family: poppins;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+      site-footer {
+  width: 80%;
+  margin: 30px auto 0;
+  padding: 30px 0 15px;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+.site-footer p {
+  color: #9c9c9c;
+}
+
+.company-logos  {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 1px 60px;
+  width:100%;
+}
+.company-logos ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.company-logos img {
+  width: 90px;
+  height: 40px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: 0.2s;
+  box-sizing: border-box;  
+}
+
+.company-logos img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  border-top: 1px solid #333;
+  padding-top: 15px;}
+
+    
+
+
+    </style>
+  </head>
+  <body
+    style="
+      background-color: #000000;
+      padding: 0;
+      margin: 0;
+      color: #9c9c9c;
+      font-family: &quot;Poppins&quot;, sans-serif;
+    "
+  >
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1b1b1b;
+        margin: 0 auto;
+        height: 50px;
+        width: 80%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      "
+    >
+      <nav>
+        <ul
+          style="
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+            justify-content: space-between;
+            height: 40px;
+            align-items: center;
+          "
+        >
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./project.html">Case studies</a></li>
+          <li><a href="./testimonials.html">Testimonials</a></li>
+          <li><a href="./works.html">Recent Works</a></li>
+          <li><a href="./contact.html">Get in touch</a></li>
+        </ul>
+      </nav>
+      <div class="icons" style="display: flex; gap: 15px">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div id="hero-content">
+          <h2>Joy Nwanji</h2>
+          <p>
+            Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>Let's get started</button>
+        </div>
+        <div id="hero-image" style="width: 40%">
+          <img div="image1"
+            controls src="./coding-8.png"
+            alt="coding image"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+      </section>
+      <section class="experience"></section>
+    </main>
+
+    <footer>
+<p style = " margin: 0px 100px;">
+  Worked with</p>
+<div class="company-logos">
+<ul 
+        style="
+          list-style-type: none;
+          display: flex;
+          gap: 15px;
+          justify-content: space-between;
+          height: 40px;
+          align-items: center;"
+        >
+        
+        
+        
+    <li><img src="clickup-com-brandmark.jpg" alt="company 1"></li>
+    <li><img src="Screenshot_8-9-2026_0232_www.logo.dev.jpeg" alt="Company 2"></li>
+    <li><img src="paychex-com-banner-2.jpg" alt="Company 3"></li>
+    <li><img src="stipe.jpg.svg" alt="Company 4"></li>
+    <li><img src="stripe2.png.svg" alt="Company 5"></li>
+</ul>
+</div>
+    </footer>
+  </body>
+</html>
